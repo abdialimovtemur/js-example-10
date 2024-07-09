@@ -60,8 +60,18 @@
 // 4.Ixtiyoriy 2 ta funciton yaratilsin 1-function ichida random sonning raqamlari yig'indisi topilsin va mana shu 1-function 2-funciton ni ichida ishlasin masala callback function yordamida bajarilsin 
 
 
+// function toRandomSum() {
+//     let randomNum = Math.floor(Math.random()*90000)
+//     let randomNumstr = randomNum.toString()
+//     let newArr = Array.from(randomNumstr , Number)
+//     console.log(newArr.reduce((a,b) => a + b, 0));
+// }
 
+// function toRandomCallback(callback) {
+//     callback()
+// }
 
+// toRandomCallback(toRandomSum);
 
 
 
